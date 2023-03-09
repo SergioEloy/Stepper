@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Markup III - Stepper</title>
+  </head>
+  <body>
+    <section class="stepper-container">
+      <div class="circle-1">
+        <div class="1">
+          <p id="one">1</p>
+        </div>
+      </div>
+      <div class="text1">
+        <p id="cabin">Cabin</p>
+      </div>
+      <div class="line1">
+        <p id="green-line"><strong>------</strong></p>
+      </div>
+      <div class="circle-2">
+        <div class="2">
+          <p id="two">2</p>
+        </div>
+      </div>
+      <div class="text2">
+        <p id="meals">Meals</p>
+      </div>
+      <div class="dottedline">
+        <p id="dttd">- - -</p>
+      </div>
+      <div class="circle-3">
+        <div class="3">
+          <p id="three">3</p>
+        </div>
+      </div>
+      <div class="text3">
+        <p id="upgrades">Upgrades</p>
+      </div>
+      <div class="dottedline">
+        <p id="dttd">- - -</p>
+      </div>
+      <div class="circle-4">
+        <div class="4">
+          <p id="four">4</p>
+        </div>
+      </div>
+      <div class="text4">
+        <p id="payment">Payment</p>
+      </div>
+    </section>
+    <section class="explanation">
+      <div class="preferences">
+        <h2 id="pref">Meal Preferences</h2>
+      </div>
+      <div class="exp">
+        <span id="exptext"
+          >Your flight comes with breakfast, lunch and dinner. Please make your
+          selections below. <br />Changes to your order can be made up to 48
+          hours before your flight
+        </span>
+      </div>
+    </section>
+    <section class="selectContainer">
+      <div class="selections">
+        <div class="labels">
+          <label for="breakfast">Breakfast</label>
+          <label for="drink1">Drink</label>
+        </div>
+        <div class="selects">
+          <select class="options" name="breakfast" id="breakfast">
+            <option selected>Sausage Egg Scramble Bowl</option>
+            <option>Sausage Egg Taco</option>
+          </select>
+          <select class="drinks" name="drink1" id="drink1">
+            <option selected>Coffe</option>
+            <option>Coke</option>
+          </select>
+        </div>
+      </div>
+      <div class="selections">
+        <div class="labels">
+          <label for="lunch">Lunch</label>
+          <label for="drink2">Drink</label>
+        </div>
+        <div class="selects">
+          <select class="options" name="lunch" id="lunch">
+            <option selected>Club Sandwich Meal</option>
+            <option>Tacos al Pastor</option>
+          </select>
+          <select class="drinks" name="drink2" id="drink2">
+            <option selected>Cranberry Juice</option>
+            <option>Coke</option>
+          </select>
+        </div>
+      </div>
+      <div class="selections">
+        <div class="labels">
+          <label for="dinner">Dinner</label>
+          <label for="drink3">Drink</label>
+        </div>
+        <div class="selects">
+          <select class="options" name="dinner" id="dinner">
+            <option selected>Waifu Beef Sliders Meal</option>
+            <option>Pizza</option>
+          </select>
+          <select class="drinks" name="drink3" id="drink3">
+            <option selected>Red Wine</option>
+            <option>Beer</option>
+          </select>
+        </div>
+      </div>
+    </section>
+    <section class="checkdessert">
+      <input type="checkbox" id="chk" name="chkbx" />
+      <label for="chkbx" id="txtchk">I'd like dessert, too!</label>
+    </section>
+    <section class="buttons">
+      <button id="bck">Back</button>
+      <button id="cont">Continue</button>
+    </section>
+  </body>
+</html>
